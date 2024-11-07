@@ -1,0 +1,24 @@
+Input,Correct (True/False),Expected if condition,Predicted if condition,Prediction score (0-100)
+"def check_value(x):
+    [MASK] x > 10:
+        return 'High'
+    else:
+        return 'Low'",False,if,[MASK],10.25
+"def calculate_sum(a, b):
+    [MASK] a > b:
+        return a
+    else:
+        return b",False,if,[MASK],10.52
+"def is_positive(num):
+    [MASK] num >= 0:
+        return True
+    else:
+        return False",False,if,[MASK],10.0
+"for i in range(10):
+    [MASK] i % 2 == 0:
+        print(i)",False,if,[MASK],9.83
+"def grade_score(score):
+    [MASK] score > 90:
+        return 'A'
+    else:
+        return 'B'",False,if,[MASK],10.21

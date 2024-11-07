@@ -1,0 +1,116 @@
+Input,Expected if condition,Predicted if condition,Prediction score (0-100)
+"def check_value(x):
+    [MASK] x > 10:
+        return 'High'
+    else:
+        return 'Low'",if,[MASK],10.25
+"def check_value(x):
+    [MASK] x > 10:
+        return 'High'
+    else:
+        return 'Low'",if,ary,4.92
+"def check_value(x):
+    [MASK] x > 10:
+        return 'High'
+    else:
+        return 'Low'",if,ren,4.6
+"def check_value(x):
+    [MASK] x > 10:
+        return 'High'
+    else:
+        return 'Low'",if,fi,4.24
+"def check_value(x):
+    [MASK] x > 10:
+        return 'High'
+    else:
+        return 'Low'",if,ror,4.23
+"def calculate_sum(a, b):
+    [MASK] a > b:
+        return a
+    else:
+        return b",if,[MASK],10.52
+"def calculate_sum(a, b):
+    [MASK] a > b:
+        return a
+    else:
+        return b",if,ary,5.01
+"def calculate_sum(a, b):
+    [MASK] a > b:
+        return a
+    else:
+        return b",if,ren,4.79
+"def calculate_sum(a, b):
+    [MASK] a > b:
+        return a
+    else:
+        return b",if,as,4.71
+"def calculate_sum(a, b):
+    [MASK] a > b:
+        return a
+    else:
+        return b",if,ror,4.55
+"def is_positive(num):
+    [MASK] num >= 0:
+        return True
+    else:
+        return False",if,[MASK],10.0
+"def is_positive(num):
+    [MASK] num >= 0:
+        return True
+    else:
+        return False",if,ary,4.55
+"def is_positive(num):
+    [MASK] num >= 0:
+        return True
+    else:
+        return False",if,fi,4.19
+"def is_positive(num):
+    [MASK] num >= 0:
+        return True
+    else:
+        return False",if,ren,4.16
+"def is_positive(num):
+    [MASK] num >= 0:
+        return True
+    else:
+        return False",if,as,4.04
+"for i in range(10):
+    [MASK] i % 2 == 0:
+        print(i)",if,[MASK],9.83
+"for i in range(10):
+    [MASK] i % 2 == 0:
+        print(i)",if,ary,4.65
+"for i in range(10):
+    [MASK] i % 2 == 0:
+        print(i)",if,ren,4.19
+"for i in range(10):
+    [MASK] i % 2 == 0:
+        print(i)",if,umber,3.96
+"for i in range(10):
+    [MASK] i % 2 == 0:
+        print(i)",if,fi,3.95
+"def grade_score(score):
+    [MASK] score > 90:
+        return 'A'
+    else:
+        return 'B'",if,[MASK],10.21
+"def grade_score(score):
+    [MASK] score > 90:
+        return 'A'
+    else:
+        return 'B'",if,ary,4.91
+"def grade_score(score):
+    [MASK] score > 90:
+        return 'A'
+    else:
+        return 'B'",if,ren,4.59
+"def grade_score(score):
+    [MASK] score > 90:
+        return 'A'
+    else:
+        return 'B'",if,fi,4.35
+"def grade_score(score):
+    [MASK] score > 90:
+        return 'A'
+    else:
+        return 'B'",if,umber,4.34
